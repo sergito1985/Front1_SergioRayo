@@ -1,0 +1,78 @@
+.characters{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 40px;
+    word-spacing: 25px;
+    margin-left: 250px;
+}
+
+#rectangle {
+    position: absolute;
+    color: white;
+    z-index: -10;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    left: 510px;
+    width: 480px;
+    height: 350px;
+    top:220px;
+    
+}
+
+#pizza {
+    position:absolute;
+    z-index: 5;
+    left: 120px;
+    display: flex;
+    justify-content: left;
+    margin-left:670px;
+    top: 300px;
+    margin-right: 150px;
+    width:180px;
+    height: 240px;
+}
+
+body {
+    background-color: black;
+}
+
+.gratis {
+    position: relative;
+    display: flex;
+    justify-content:right;
+    z-index: 10;
+    top:120px;
+}
+
+.podio {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    z-index: 10;
+    top:120px;
+    right: -600px;
+    color: rgb(95, 16, 16);
+}
+
+.products {
+    position:absolute;
+    z-index: 10;
+    left: 600px;
+    top:350px;
+    color:rgb(95, 16, 16);
+}
+
+.logo {
+    top:20px;
+    left:10px;
+    padding: 15;
+}
+
+.loguito{
+    position:absolute;
+    right:30px;
+    margin-bottom: 25px;
+    padding: 15;
+}

@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* Barra Descuentos */
+.descuento {
+  display: flex;
+  height: 38px;
+  background-color: #1cd1b0;
+  align-items: center;
+  padding-left: 10px;
+}
+
+/*Barra Super Heroes*/
+.titulo {
+  display: flex;
+  height: 101px;
+  background-color: #00669f;
+  align-items: center;
+  padding-left: 28px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Contenedor Cartas */
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 120px;
+}
+
+/* Cartas */
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 529px;
+
+  border-radius: 25px 25px 0 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f3f3f3;
+}
+
+/*Fondo Cartas */
+.bkgd {
+  position: relative;
+  width: 300px;
+  height: 194px;
+  top: -35px;
+}
+
+/*Corazon*/
+.heart {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 15px;
+  left: 21px;
+  z-index: 9;
+}
+
+/*Foto de perfil*/
+.profile {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  left: 90px;
+  top: -127px;
+}
+
+/*Textos Cards*/
+p {
+  position: relative;
+  padding: 0 17px 0 16px;
+  bottom: 104px;
+  width: 267px;
+  height: 113px;
+  font-size: 15px;
+}
+
+/*titulos card*/
+.card h3 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  top: -120px;
+}
+
+/*Boton*/
+.btn {
+  position: relative;
+  background-color: #00669f;
+  top: -25px;
+  text-align: center;
+  margin: auto;
+  padding: 10px 35px;
+  text-decoration: none;
+  color: #ffff;
+}
+
+/*Pie de Pagina*/
+footer {
+  display: flex;
+  flex-direction: row;
+  height: 51px;
+  background-color: #00669f;
+  align-items: center;
+  color: #ffff;
+  justify-content: center;
+}
+
+/*Media Query*/
+/*Smartphones*/
+@media screen and (min-width: 0px) and (max-width: 468px) {
+  /* Cambiando barra descuento */
+  .descuento {
+    background-color: #d1891c;
+    padding-left: 27px;
+  }
+  /* Cambiando barra titulo */
+  .titulo h1{
+    margin-left: 27px;
+  }
+  .titulo {
+    
+    height: 162px;
+  }
+/* Cambiando espacio contenedor */
+  .contenedor{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    
+    
+  }
+   /* Cambiando espacio card*/ 
+  .card{
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Cambiando barra descuento */
+  .descuento {
+    background-color: #d1891c;
+    padding-left: 27px;
+  }
+  /* Cambiando barra titulo */
+  .titulo h1{
+    margin-left: 27px;
+  }
+  .titulo {
+    
+    height: 162px;
+  }
+/* Cambiando espacio contenedor */
+  .contenedor{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    
+    
+  }
+ /* Cambiando espacio card*/ 
+  .card{
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+}

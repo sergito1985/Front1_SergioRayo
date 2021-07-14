@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hijo{
+    border: 1px solid black;
+    text-align: center;
+    width: 8rem;
+    padding: 1rem;
+    background-color: blanchedalmond;
+
+
+    
+}
+main{
+    margin: 2rem;
+    
+
+}
+h1{
+    text-align: center;
+
+}
+.contenedorPadre{
+    display: flex;
+    background-color: brown;
+
+}
+.contenedorReverse{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: brown;
+
+
+}
+.contenedorColumn{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+
+
+}
+.contenedorColumnReverse{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: brown;
+}
+.contenedorWrap{
+    display: flex;
+    background-color: brown;
+    flex-wrap: wrap;
+}
+.contenedorCentrado{
+    display: flex;
+    background-color: rgb(146, 53, 53);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedorSpace{
+    display: flex;
+    background-color: brown;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+.contenedorAround{
+    display: flex;
+    background-color: brown;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.contenedorEvenly{
+    display: flex;
+    background-color: brown;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.contenedorAlign{
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: brown;
+    height: 200px;
+}
+
+

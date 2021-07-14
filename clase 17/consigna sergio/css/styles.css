@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+
+/* Barra Descuentos */
+.descuento {
+    display: flex;
+    height: 25px;
+    background-color: #1cd1b0;
+    align-items: center;
+    padding-left: 10px;
+    }
+/*Barra Super Heroes*/
+.titulo {
+    display: flex;
+    height: 101px;
+    background-color: #00669f;
+    align-items: center;
+    padding-left: 28px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    }
+/* Barra Descuentos */
+.datos {
+    display:flexbox; 
+    color: white;
+    height: 35px;
+    background-color: #001D2D;
+    padding-left: 10px;
+    justify-content: end;
+    }  

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Pseudo-elementos</title>
+</head>
+<body>
+    <header>
+        <div class="descuento">
+            <h4>Descuentos 20%</h4>
+        </div>
+        <div class="titulo">
+            <img src="img/ilustracion-vector-bolso-escuela-utiles-escolares_43633-3642.svg"80" height="80" /> <h1>Tu lista Escolar</h1>
+        </div>
+        <div class="datos">
+            <ul type=none >
+            <li><h4>Contacto</h4></li>
+            <li><h4>Registrarme</h4></li>
+            <li><h4>Ingresar</h4></li>  
+            </ul>  
+        </div> 
+    </header>
+        <section id="formulario">
+            <h2>Ahora un form</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Mi form de prueba</legend>
+    
+                    <!-- Opcion automática  -->
+                    <div>
+                        <input type="text" id="nombre" name="nombre" placeholder="Juan Perez" required>
+                        <label for="nombre">Nombre y apellido</label>
+                    </div>
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="alguien@mail.com" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input type="tel" id="tel" name="tel" placeholder="123-901" disabled>
+                        <label for="tel">Tel</label>
+                    </div>
+    
+                    <input type="reset" value="Resetear">
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </section>
+</body>
+</html>
